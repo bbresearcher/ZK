@@ -1,4 +1,4 @@
-# Quizz 1 Questions
+# Quiz 1 Questions
 1. A zero-knowledge proof allows you to prove the truth of a statement without sharing the statement’s<br>
     a. Signature<br>
     b. Content<br>
