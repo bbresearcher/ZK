@@ -4,7 +4,7 @@
     b. Content<br>
     c. Keccak hash<br>
     d. Message sender<br><br>    
-2. Which one of these is not a criteria that must be satifiied<br>
+2. Which one of these is not a criteria that must be satisfied<br>
     a. Completeness<br>
     b. Soundness<br>
     c. Zero-knowledge<br>
