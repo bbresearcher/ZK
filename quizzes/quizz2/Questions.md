@@ -21,5 +21,13 @@
     d. without needing the shared key<br><br>
 5. ZK-SNARKs can prove the correctness of off-chain computations<br>
     a. TRUE<br>
-    b. FALSE<br>
-6.  
+    b. FALSE<br><br>
+6.  ZK-ROLLUPs are:<br>
+    a. A solution to batch signature<br>
+    b. A Layer 2 scaling solution<br>
+    c. A solution to synchronize Layer 2 transactions<br>
+    d. A soltion to make transactions smaller<br><br>
+7.  PUT THE BELOW IN ORDER-> ZK-ROLLUPs that use ZK-SNARKS follow this structure:<br>
+    a. Validators compress transactions into a block and generate a proof<br>
+    b. A smart contract on L1 validates the proof, and if it's valid posts to the main chain<br>
+    c. L2 Users sign transaction<br><br>
