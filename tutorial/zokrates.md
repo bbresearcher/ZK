@@ -6,7 +6,7 @@
 
 ## Create proving code in Zokrates
 Zokrates allows us to create a proving function to assert that the proof provided is true.
-This tutorial is a really basic introduction to ZK-Proofs<br>
+This tutorial is a really basic introduction to ZK-Proofs.<br>
 In our example project we will create a zokrates function to verify the proof, and also write a `Foundry` test in order to test the resulting proof.
 ## First create the off-chain verfying code
 In our very basic example we will create two inputs, the first one must be exactly double the second one.<br><br>
