@@ -9,7 +9,7 @@ Zokrates allows us to create a proving function to assert that the proof provide
 This tutorial is a really basic introduction to ZK-Proofs<br>
 In our example project we will create a zokrates function to verify the proof, and also write a `Foundry` test in order to test the resulting proof.
 ## First create the off-chain verfying code
-In our very basic example we will create two inputs, the first one must be exactly double the second one.
+In our very basic example we will create two inputs, the first one must be exactly double the second one.<br><br>
 **Steps to follow along**<br>
 1. Create a directory **mkdir zk_demo**.
 2. **forge init --no-git** to initialize the `Foundry` structure.
@@ -34,8 +34,8 @@ We can use zokrates built in function to export our verification code as soldity
 We are now ready to move on to how a `Prover` would interact with the proving code given.
 
 ## Generate a proof using Zokrates.
-A prover would need to generate a `proof` to send to the verifier. We will use Zokrates to generate this proof.<br>
-**Steps**
+A prover would need to generate a `proof` to send to the verifier. We will use Zokrates to generate this proof.<br><br>
+**Steps**<br>
 1. Move into the **prover** directory, which should contain the files **isdouble.zok** and **proving.key**.
 2. Compile the **.zok** file, **zokrates compile -i isdouble.zok -o isdouble**
 3. Create a wtiness (you can read more about this on the zokrates book in the link on top). **zokrates compute-witness --verbose -i isdouble -a 4 2**, The -a is the values that need to be sent into the isdouble code , so the first number needs to be double the second number, ie 4 2 , or 16 8.
@@ -53,8 +53,8 @@ PASSED
 To test our code on-chain we will use `Foundry` so that there is no need to deploy to testnets in order to keep the tutorial as easy as possible.
 
 ## Foundry test file
-In the `Foundry` folder structure there should be a directory called `test`, and inside the `test` directory a file called `Counter.t.sol`, this is placed there by the `forge init` command and can be deleted.
-**Steps**
+In the `Foundry` folder structure there should be a directory called `test`, and inside the `test` directory a file called `Counter.t.sol`, this is placed there by the `forge init` command and can be deleted.<br><br>
+**Steps**<br><br>
 1. Create a file called `Verifier.t.sol`
 2. Paste the code below into the file and save.
 3. **We will discuss what needs to be changed in to the file below the code block**
