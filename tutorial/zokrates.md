@@ -35,10 +35,10 @@ We are now ready to move on to how a `Prover` would supply a proof.
 
 ## Generate a proof using Zokrates.
 A prover would need to generate a `proof` to send to the verifier. We will use Zokrates to generate this proof.<br><br>
-**Steps**<br>
+**Steps to follow**<br>
 1. Move into the **prover** directory, which should contain the files **isdouble.zok** and **proving.key**.
 2. Compile the **.zok** file, **zokrates compile -i isdouble.zok -o isdouble**
-3. Create a wtiness (you can read more about this on the zokrates book in the link on top). **zokrates compute-witness --verbose -i isdouble -a 4 2**, The -a is the values that need to be sent into the isdouble code , so the first number needs to be double the second number, ie 4 2 , or 16 8.
+3. Create a wtiness (you can read more about this on the `Zokrates` book using the link on top). **zokrates compute-witness --verbose -i isdouble -a 4 2**, The -a is the values that need to be sent into the isdouble code , so the first number needs to be double the second number, ie 4 2 , or 16 8.
 4. **We can finally generate our proof**, type the command **zokrates generate-proof -i isdouble**, this will output a file called **proof.json**.
 
 ## Verifying our proof before we try it on-chain
@@ -54,7 +54,7 @@ To test our code on-chain we will use `Foundry` so that there is no need to depl
 
 ## Foundry test file
 In the `Foundry` folder structure there should be a directory called `test`, and inside the `test` directory a file called `Counter.t.sol`, this is placed there by the `forge init` command and can be deleted.<br><br>
-**Steps**<br><br>
+**Steps to follow**<br><br>
 1. Create a file called `Verifier.t.sol`
 2. Paste the code below into the file and save.
 3. **We will discuss what needs to be changed in to the file below the code block**
