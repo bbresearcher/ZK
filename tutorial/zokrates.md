@@ -23,7 +23,7 @@ def main(public field doulbedVal, public field inputVal) {
 }
 ```
 6. Compile **isdouble.zok**. Do this by typing the terminal command **zokrates compile -i isdouble.zok -o isdouble**
-7. Create the need key files to share with any prover **zokrates setup -i isdouble**, this will result in two files called **verification.key** and **proving.key**
+7. Create the needed key files to share with any prover **zokrates setup -i isdouble**, this will result in two files called **verification.key** and **proving.key**
 8. Copy the **proving.key** and **isdouble.zok** to the **prover** folder.
 
 ## Create the Solidity file to test our verification on chain.
