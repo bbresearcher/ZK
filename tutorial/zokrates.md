@@ -7,7 +7,7 @@
 ## Create proving code in Zokrates
 Zokrates allows us to create a proving function to assert that the proof provided is true.
 This tutorial is a really basic introduction to ZK-Proofs.<br>
-In our example project we will create a zokrates function to verify the proof, and also write a `Foundry` test in order to test the resulting proof.
+In our example project, we will create a zokrates function to verify the proof and also write a `Foundry` test in order to test the resulting proof.
 ## First create the off-chain verfying code
 In our very basic example we will create two inputs, the first one must be exactly double the second one.<br><br>
 **Steps to follow along**<br>
@@ -38,7 +38,7 @@ A prover would need to generate a `proof` to send to the verifier. We will use Z
 **Steps to follow**<br>
 1. Move into the **prover** directory, which should contain the files **isdouble.zok** and **proving.key**.
 2. Compile the **.zok** file, **zokrates compile -i isdouble.zok -o isdouble**
-3. Create a wtiness (you can read more about this on the `Zokrates` book using the link on top). **zokrates compute-witness --verbose -i isdouble -a 4 2**, The -a is the values that need to be sent into the isdouble code , so the first number needs to be double the second number, ie 4 2 , or 16 8.
+3. Create a witness (you can read more about this on the `Zokrates` book website using the link on top). **zokrates compute-witness --verbose -i isdouble -a 4 2**, The -a is the values that need to be sent into the `isdouble` code , so the first number needs to be double the second number, ie 4 2 , or 16 8.
 4. **We can finally generate our proof**, type the command **zokrates generate-proof -i isdouble**, this will output a file called **proof.json**.
 
 ## Verifying our proof before we try it on-chain
