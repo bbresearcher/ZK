@@ -57,7 +57,7 @@ In the `Foundry` folder structure there should be a directory called `test`, and
 **Steps to follow**<br><br>
 1. Create a file called `Verifier.t.sol`
 2. Paste the code below into the file and save.
-3. **We will discuss what needs to be changed in to the file below the code block**
+3. **We will discuss what needs to be changed in the file, below the code block**
 
 ```solidity
 // SPDX-License-Identifier: UNLICENSED
