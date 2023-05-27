@@ -27,7 +27,7 @@ def main(public field doulbedVal, public field inputVal) {
 8. Copy the **proving.key** and **isdouble.zok** to the **prover** folder.
 
 ## Create the Solidity file to test our verification on chain.
-We can use zokrates built in function to export our verification code as soldity.
+We can use `Zokrates'` built in function to export our verification code as soldity.
 1. In the base directory **zk_demo** type the command **zokrates export-verifier**, this will result in a file called **verifier.sol**.
 2. Move **verfier.sol** to the **src** directory of the `Foundry structure`.
 
