@@ -13,7 +13,7 @@ In our very basic example we will create two inputs, the first one must be exact
 **Steps to follow along**<br>
 1. Create a directory **mkdir zk_demo**.
 2. **forge init --no-git** to initialize the `Foundry` structure.
-3. Create a second folder to mimic the folder of someone wishin to send a proof. **prover**.
+3. Create a second folder to mimic the folder of someone wishing to send a proof. **prover**.
 4. In the base directory of the **zk_demo** forlder create a file called **isdouble.zok**.
 5. Paste the code below into the **isdouble.zok** and save it. The code takes two inputs, the first value is expected to be double the second value.
 ```
