@@ -50,7 +50,7 @@ Performing verification...
 PASSED
 ```
 # Testing our code on-chain
-To test our code on-chain we will use `Foundry` so that there is no need to deploy to testnets in order to keep the tutorial as easy as possible.
+To test our code on-chain we will use `Foundry` so that there is no need to deploy to testnets in order to keep the tutorial as simple as possible.
 
 ## Foundry test file
 In the `Foundry` folder structure there should be a directory called `test`, and inside the `test` directory a file called `Counter.t.sol`, this is placed there by the `forge init` command and can be deleted.<br><br>
