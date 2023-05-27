@@ -76,12 +76,13 @@ contract VerifierTest is Test {
 
     function testProof() public {
         Verifier.Proof memory proof;
-        Pairing.G1Point memory a = Pairing.G1Point(uint256(0x0......),uint256(0x0...));
-        Pairing.G2Point memory b = Pairing.G2Point([uint256(0x0....),uint256(0x0....)],[uint256(0x1.....),uint256(0x1....)]);
-        Pairing.G1Point memory c = Pairing.G1Point(uint256(0x.....),uint256(0x2....));
+        Pairing.G1Point memory a = Pairing.G1Point(uint256(0x0..ADD VALUES HERE{1}),uint256(0x0..ADD VALUES HERE{2}));
+        Pairing.G2Point memory b = Pairing.G2Point([uint256(0x0..ADD VALUES HERE{3}),uint256(0x0..ADD VALUES HERE{4})],[uint256(0x0..ADD VALUES HERE{5}),uint256(0x0..ADD VALUES HERE{6})]);
+        Pairing.G1Point memory c = Pairing.G1Point(uint256(0x0..ADD VALUES HERE{7}),uint256(0x0..ADD VALUES HERE{8}));
         proof.a = a;
         proof.b = b;
         proof.c = c;
+	//IF YOU CHANGE THE NUMBERS YOU WILL NEED TO REGENERATE THE PROOF, SO ONLY ENTER THE NUMBER YOU USED TO CREATE THE WITNESS
         uint256 doubledVal = 4;
         uint256 inputVal = 2;
         uint256[2] memory invals = [doubledVal,inputVal];
@@ -91,3 +92,52 @@ contract VerifierTest is Test {
 
 }
 ```
+4. In the **proof.json** file that was created we need to copy and paste the values into the **Pairing.G1Point** and **Pairing.G2Point** areas in the code marked **ADD VALUES HERE{NUM}**.
+5. I have marked an example proof file below to show which values need to go into which parts of the `Foundry` test contract.
+
+```text
+{
+  "scheme": "g16",
+  "curve": "bn128",
+  "proof": {
+    "a": [
+      "0x0..COPY VALUES HERE{1}",
+      "0x0..COPY VALUES HERE{2}"
+    ],
+    "b": [
+      [
+        "0x0..COPY VALUES HERE{3}",
+        "0x0..COPY VALUES HERE{4}"
+      ],
+      [
+        "0x0..COPY VALUES HERE{5}",
+        "0x0..COPY VALUES HERE{6}"
+      ]
+    ],
+    "c": [
+      "0x0..COPY VALUES HERE{7}",
+      "0x0..COPY VALUES HERE{8}"
+    ]
+  },
+  "inputs": [
+    "0x0000000000000000000000000000000000000000000000000000000000000004",
+    "0x0000000000000000000000000000000000000000000000000000000000000002"
+  ]
+}
+```
+
+6. Run the test **forge test -vv**
+
+If all goes well you should see the output below
+```
+[⠊] Compiling...
+[⠘] Compiling 1 files with 0.8.20
+[⠊] Solc 0.8.20 finished in 1.66s
+Compiler run successful!
+
+Running 1 test for test/Verifier.t.sol:VerifierTest
+[PASS] testProof() (gas: 221270)
+Test result: ok. 1 passed; 0 failed; finished in 60.43ms
+```
+
+## IF YOU FOLLOWED ALONG THIS FAR -- THANK YOU --
