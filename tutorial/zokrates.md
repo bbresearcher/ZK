@@ -31,7 +31,7 @@ We can use `Zokrates'` built in function to export our verification code as a so
 1. In the base directory **zk_demo** type the command **zokrates export-verifier**, this will result in a file called **verifier.sol**.
 2. Move **verfier.sol** to the **src** directory of the `Foundry structure`.
 
-We are now ready to move on to how a `Prover` would interact with the proving code given.
+We are now ready to move on to how a `Prover` would supply a proof.
 
 ## Generate a proof using Zokrates.
 A prover would need to generate a `proof` to send to the verifier. We will use Zokrates to generate this proof.<br><br>
