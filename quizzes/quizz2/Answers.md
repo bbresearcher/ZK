@@ -7,4 +7,4 @@
 6. B
 7. C,A,B
 
-For extra reading you can go to [https://www.alchemy.com/overviews/snarks-vs-starks](https://www.alchemy.com/overviews/snarks-vs-starks)
+For extra reading (as the questions as based on the content of the site) you can go to [https://www.alchemy.com/overviews/snarks-vs-starks](https://www.alchemy.com/overviews/snarks-vs-starks)
