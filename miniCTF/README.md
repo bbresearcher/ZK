@@ -14,4 +14,4 @@ If the proof submitted is correct it will return ***true*** on the call to the f
 The files needed are in a folder called **prover** in this repo.
 
 
-## DISCLAIMER: Do not use any of this code in production it's just an example. always verify software, DO NOT just install software you think you may need without double checking, so if oyu install anything based on this CTF it is at you own risk.
+## DISCLAIMER: Do not use any of this code in production it's just an example. always verify software, DO NOT just install software you think you may need without double checking, so if you install anything based on this CTF it is at you own risk.
