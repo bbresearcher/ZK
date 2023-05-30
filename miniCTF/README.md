@@ -6,7 +6,7 @@ The aim of the CTF is to generate and submit a proof, that you know the keccak25
 ## HINT: The number starts with 1113 and ends with 929.
 ## Helpful links:
 [https://docs.circom.io/getting-started/computing-the-witness/](https://docs.circom.io/getting-started/computing-the-witness/)<br>
-[https://docs.circom.io/getting-started/proving-circuits/](https://docs.circom.io/getting-started/proving-circuits/)
+[https://docs.circom.io/getting-started/proving-circuits/](https://docs.circom.io/getting-started/proving-circuits/)<br><br>
 You need to use snarkjs to genearate a witness and proof file, and then submit this to the verifier.<br>
 If the proof submitted is correct it will return ***true*** on the call to the function `verifyProof`.<br>
 ![It Worked](itworked.png)<br><br>
