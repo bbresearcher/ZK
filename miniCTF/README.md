@@ -9,7 +9,7 @@ The aim of the CTF is to generate and submit a proof, that you know the keccak25
 [https://docs.circom.io/getting-started/computing-the-witness/](https://docs.circom.io/getting-started/computing-the-witness/)<br>
 [https://docs.circom.io/getting-started/proving-circuits/](https://docs.circom.io/getting-started/proving-circuits/)<br><br>
 You need to use snarkjs to genearate a witness and proof file, and then submit this to the verifier.<br>
-You can use REMIX to interact with `CTFVerifier.sol` supplied in the **prover** directory at the address **0x37dEA441346447b271c372Bd21dEc2347aB6d0f4**<br><br>
+You can use REMIX to interact with `CTFVerifier.sol` supplied in the **prover** directory of this repo at the address **0x37dEA441346447b271c372Bd21dEc2347aB6d0f4**<br><br>
 If the proof submitted is correct it will return ***true*** on the call to the function `verifyProof`.<br>
 ![It Worked](itworked.png)<br><br>
 ## DISCLAIMER: Do not use any of this code in production it's just an example. always verify software, DO NOT just install software you think you may need without double checking, so if you install anything based on this CTF it is at you own risk.
