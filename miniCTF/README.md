@@ -5,7 +5,7 @@ I have create a mini CTF on the sepolia network.<br>
 The aim of the CTF is to generate and submit a proof, that you know the keccak256 hash of the yAcademy website, which you then casted into a uint256.<br>
 You need to use snarkjs to genearate a witness and proof file, and then submit this to the verifier.<br>
 If the proof submitted is correct it will return true on the call to the function `verifyProof`.<br>
-![It Worked](it_worked.png)<br><br>
+![It Worked](itworked.png)<br><br>
 
 The files needed are in a folder called **prover** in this repo.
 
