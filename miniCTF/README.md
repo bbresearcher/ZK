@@ -3,7 +3,7 @@
 The files needed are in a folder called **prover** in this repo.<br>
 I have created a mini CTF on the sepolia network.<br>
 [https://sepolia.etherscan.io/address/0x37dEA441346447b271c372Bd21dEc2347aB6d0f4](https://sepolia.etherscan.io/address/0x37dEA441346447b271c372Bd21dEc2347aB6d0f4)<br>
-The aim of the CTF is to generate and submit a proof, that you know the keccak256 hash of the yAcademy website **https://yacademy.dev/**, which you then casted into a uint256.<br>
+The aim of the CTF is to generate and submit a proof, that you know the keccak256 hash of the yAcademy website **https://yacademy.dev/** URL, which you then casted into a uint256.<br>
 ## HINT: The number starts with 1113 and ends with 929.
 ## Helpful links:
 [https://docs.circom.io/getting-started/computing-the-witness/](https://docs.circom.io/getting-started/computing-the-witness/)<br>
