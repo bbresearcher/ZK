@@ -12,4 +12,4 @@ You need to use snarkjs to genearate a witness and proof file, and then submit t
 You can use REMIX to interact with `CTFVerifier.sol` supplied in the **prover** directory of this repo at the address **0x37dEA441346447b271c372Bd21dEc2347aB6d0f4**<br><br>
 If the proof submitted is correct it will return ***true*** on the call to the function `verifyProof`.<br>
 ![It Worked](itworked.png)<br><br>
-## DISCLAIMER: Do not use any of this code in production it's just an example. always verify software, DO NOT just install software you think you may need without double checking, so if you install anything based on this CTF it is at you own risk.
+## DISCLAIMER: Do not use any of this code in production it's just an example. always verify software, DO NOT just install software you think you may need without double checking, so if you install anything based on this CTF it is at your own risk.
