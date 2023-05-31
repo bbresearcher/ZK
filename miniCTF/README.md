@@ -1,3 +1,4 @@
+[SOLUTION WALKTHROUGH](./solution.md)
 # MINI CTF
 ## There is no prize it's just to learn.
 The files needed are in a folder called **prover** in this repo.<br>
