@@ -20,4 +20,5 @@
 
 ## Resources to check
 [https://github.com/trailofbits/circomspect/blob/main/doc/analysis_passes.md](https://github.com/trailofbits/circomspect/blob/main/doc/analysis_passes.md)
+
 [https://github.com/0xPARC/zk-bug-tracker](https://github.com/0xPARC/zk-bug-tracker)
