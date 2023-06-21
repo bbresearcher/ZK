@@ -9,4 +9,4 @@
 - [ ] Write tests
 
 ## Are there any static analyzers?
-- [ ] 
+- [ ] Static analyzers?
