@@ -1,5 +1,6 @@
 # MINI CTF
 ## There is no prize it's just to learn.
+## LEVEL : EASY
 The files needed are in a the main directory of this miniCTF folder.<br>
 I have created a mini CTF on the `Sepolia` network.<br>
 [https://sepolia.etherscan.io/address/0x54ea97c4b15bb81744fdd82d7fd3466d4b151d17](https://sepolia.etherscan.io/address/0x54ea97c4b15bb81744fdd82d7fd3466d4b151d17)<br>
