@@ -4,7 +4,7 @@
 - [ ] Check public and private variables are correctly indicated
 - [ ] Check any functions for logic errors
 
-## Besides manual testing and Hardhat/Foundry are there any other testing frameworks.
+## Besides manual testing and Hardhat/Foundry are there any other testing frameworks?
 - [ ] Run any tests provided
 - [ ] Write tests
 
