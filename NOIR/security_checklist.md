@@ -5,7 +5,7 @@
 - [ ] Check any functions for logic errors
 
 ## Code best practices
--[ ] TO BE ADDED AS I GET TO KNOW OF THEM
+- [ ] TO BE ADDED AS I GET TO KNOW OF THEM
 
 ## Besides manual testing and Hardhat/Foundry are there any other testing frameworks?
 - [ ] Run any tests provided
