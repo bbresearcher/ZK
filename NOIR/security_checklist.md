@@ -1,6 +1,7 @@
 ## NOIR Security best practice checklist
 - [ ] Check any imported libraries for known vulnerabilites
 - [ ] Check variable assignment
+- [ ] Check variable types used
 - [ ] Check public and private variables are correctly indicated
 - [ ] Check any functions for logic errors
 
