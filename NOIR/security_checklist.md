@@ -6,6 +6,7 @@
 - [ ] Check any functions for logic errors
 
 ## Code best practices
+- [ ] Tuples cannot be inputs currently
 - [ ] TO BE ADDED AS I GET TO KNOW OF THEM
 
 ## Besides manual testing and Hardhat/Foundry are there any other testing frameworks?
