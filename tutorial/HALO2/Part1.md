@@ -29,7 +29,7 @@ Our new spreadsheet is coming along well, but lets imagine we wanted to keep tra
 
 We will build on this example in the tutorial where we deal with writing custom gates. For now that abstract example will suffice to desribe the table structure used by HALO2.
 
-There are also different types of columns that are used for different types of data that will be used by the circuit. The table below lists these columns and the columns in our spreadsheet as reference.
+There are different types of columns that are used for different types of data that will be used by the circuit. The table below lists these columns and the columns in our spreadsheet as reference.
 
 ![Table](pics/coulmtypes.png)
 
