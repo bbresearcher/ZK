@@ -15,7 +15,11 @@ In the example, the spreadsheet layout will be as set out in the image below.
 
 ![Table](pics/table_layout1.png)
 
-Now we can build further on our spreadsheet application. Imagine we wanted to write a macro that would check each row and ensure the the value of ROW[CURRENT_ROW].COLUMN[A] + ROW[CURRENT_ROW].COLUMN[B] + ROW[PREVIOUS_ROW].COLUMN[C] = ROW[CURRENT_ROW].COLUMN[C] as in the image below.
+Now we can build further on our spreadsheet application. Imagine we wanted to write a macro that would check each row and ensure the the value of 
+
+`ROW[CURRENT_ROW].COLUMN[A] + ROW[CURRENT_ROW].COLUMN[B] + ROW[PREVIOUS_ROW].COLUMN[C] = ROW[CURRENT_ROW].COLUMN[C]`
+
+as in the image below.
 
 ![Table](pics/first_constraint.png)
 
