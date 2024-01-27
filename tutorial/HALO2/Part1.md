@@ -1,6 +1,6 @@
 Halo2 101
 
-Halo2 is an API implemented in Rust. It is used to create zero knowledge circuits used to prove and verify zero knowledge claims. In order to understand how to develop Halo2 circuits I believe it would be beneficial to first understand the table structure used by Halo2 and PLONKish arithmetic.
+Halo2 is an API implemented in Rust. It is used to create zero knowledge circuits used to prove and verify zero knowledge claims. In order to understand how to develop Halo2 circuits it would be beneficial to first understand the table structure used by Halo2 and PLONKish arithmetic.
 
 Let me start off by using an abstract example, I think this may make understanding the concept slightly easier.
 Imagine a database table or an excel spreadsheet. Each column has a type of data it will hold, in a typical database the first column might be used for an auto-incrementing integer which will become the row index. The next column will hold a different type of data which the application will use internally for some function. Each row will be filled with values that correspond to the column data types. 
