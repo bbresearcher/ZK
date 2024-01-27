@@ -23,15 +23,15 @@ as in the image below.
 
 ![Table](pics/first_constraint.png)
 
-Our first row does not have a previous row that the Column C can be checked against. To overcome this we decide to add an extra column that will only contain a 0 or a 1. If Column D has a value of 1 then it means we must run the check against this row to be sure our spreadsheet totals are correct. the new table layout will be a in the image below.
+Our first row does not have a previous row that the Column C can be checked against. To overcome this we decide to add an extra column that will only contain a 0 or a 1. If Column D has a value of 1 then it means we must run the check against this row to be sure our spreadsheet totals are correct. the new table layout will be as in the image below.
 
 ![Table](pics/table_layout2.png)
 
-Our new spreadsheet is coming along well, but lets imagine we wanted to keep track of the commision earned by each Sales person. The commision scale for each sales person may be different, and we certainly would want to keep this information private. We could add columns to our spreadsheet that are hidden, and can only be shown if the user knows the password. The values could be seen a private inputs into the spreadsheet. We will use a background color of light red to show these columns in our pictures going forward, but for all intents and purposes they would not be visible to a normal user in the final spreadsheet. 
+Our new spreadsheet is coming along well, but lets imagine we wanted to keep track of the commision earned by each Sales person. The commision scale for each sales person may be different, and we certainly would want to keep this information private. We could add columns to our spreadsheet that are hidden, and can only be shown if the user knows the password. The values could be seen a private inputs into the spreadsheet. (We will use a background color of light red to show these columns in our pictures going forward, but for all intents and purposes they would not be visible to a normal user in the final spreadsheet.)
 
 ![Table](pics/layout_privateColumns.png)
 
-We will build on this example in a later tutorial where we deal with writing custom gates. for now we can progress to describing the types of columns used in Halo2 circuits. They have a similar structure and function. 
+We will build on this example in a later tutorial where we deal with writing custom gates. For now we can progress to describing the types of columns used in Halo2 circuits. They have a similar structure and function. 
 
 Each column type is used differently in Halo2 and the rows in turn will hold the values. The values may be present as the circuit is instantiated or the values be be calculated during the execution of the code of the circuit.
 There are fixed columns that can be used as lookup tables. The concept is very similar to lookup tables in spreadsheets.
@@ -40,5 +40,5 @@ The table below lists these columns and the columns in our spreadsheet as refere
 
 ![Table](pics/coulmtypes.png)
 
-This was a very high level look at the table structure used in HALO2, if you would like to get a more indepth view to build on this example I can recommend reading the HALO2 book at [https://zcash.github.io/halo2/concepts/arithmetization.html](https://zcash.github.io/halo2/concepts/arithmetization.html)
+This was a very high level look at the table structure used in HALO2, if you would like to get a more in-depth view to build on this example I can recommend reading the HALO2 book at [https://zcash.github.io/halo2/concepts/arithmetization.html](https://zcash.github.io/halo2/concepts/arithmetization.html)
 
