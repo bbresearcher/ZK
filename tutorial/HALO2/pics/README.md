@@ -1,0 +1,1 @@
+pictures used in text
