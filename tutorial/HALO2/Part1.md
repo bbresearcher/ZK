@@ -31,9 +31,12 @@ Our new spreadsheet is coming along well, but lets imagine we wanted to keep tra
 
 ![Table](pics/layout_privateColumns.png)
 
-We will build on this example in the tutorial where we deal with writing custom gates. For now that abstract example will suffice to desribe the table structure used by HALO2.
+We will build on this example in a later tutorial where we deal with writing custom gates. for now we can progress to describing the types of columns used in Halo2 circuits. They have a similar structure and function. 
 
-There are different types of columns that are used for different types of data that will be used by the circuit. The table below lists these columns and the columns in our spreadsheet as reference.
+Each column type is used differently in Halo2 and the rows in turn will hold the values. The values may be present as the circuit is instantiated or the values be be calculated during the execution of the code of the circuit.
+There are fixed columns that can be used as lookup tables. The concept is very similar to lookup tables in spreadsheets.
+
+The table below lists these columns and the columns in our spreadsheet as reference.
 
 ![Table](pics/coulmtypes.png)
 
