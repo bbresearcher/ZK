@@ -3,7 +3,7 @@
 ## Introduction
 This is the first in a series of very high level tutorials on Halo2. The purpose of tutorials is to introduce Halo2 concepts in order to break them down into small understandable concepts, to guide the reader that is starting out on the journey of learning zero knowledge and Halo2.
 
-Halo2 was developed Electric Coin Company, and has been used in Zcash and many other zero kenowledge protocols.
+Halo2 was developed by Electric Coin Company, and has been used in Zcash and many other zero kenowledge protocols.
 
 Halo2 is an API implemented in Rust. It is used to create zero knowledge circuits used to prove and verify zero knowledge claims. Halo2 makes use of PLONKish arithmetic as the basis for computations. In order to understand how to develop Halo2 circuits it would be beneficial to first understand the table structure used by Halo2 and PLONKish arithmetic.
 
