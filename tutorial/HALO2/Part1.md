@@ -47,7 +47,7 @@ The table below lists these columns and the columns in our spreadsheet as refere
 
 ![Table](pics/coulmtypes.png)
 
-##Conclusion
+## Conclusion
 In the next tutorial I will looking into the structure of Halo2 projects. We will get an insight into the concepts of "Chips", "Circuits", "Layouter" , "Floorplanner".
 
 This was a very high level look at the table structure used in HALO2, if you would like to get a more in-depth view to build on this example I can recommend reading the HALO2 book at [https://zcash.github.io/halo2/concepts/arithmetization.html](https://zcash.github.io/halo2/concepts/arithmetization.html)
