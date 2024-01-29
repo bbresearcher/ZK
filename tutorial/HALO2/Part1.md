@@ -1,7 +1,7 @@
 # Halo2 101
 
 ## Introduction
-This is the first in a series of very high level tutorials on Halo2. The purpose of tutorials is to introduce Halo2 concepts in order to break them down into small understandable concepts to guide the reader that is starting out on the journey of learning zero knowledge and Halo2.
+This is the first in a series of very high level tutorials on Halo2. The purpose of tutorials is to introduce Halo2 concepts in order to break them down into small understandable concepts, to guide the reader that is starting out on the journey of learning zero knowledge and Halo2.
 
 Halo2 was developed Electric Coin Company, and has been used in Zcash and many other zero kenowledge protocols.
 
