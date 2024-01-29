@@ -1,12 +1,19 @@
-Halo2 101
+# Halo2 101
 
-Halo2 is an API implemented in Rust. It is used to create zero knowledge circuits used to prove and verify zero knowledge claims. In order to understand how to develop Halo2 circuits it would be beneficial to first understand the table structure used by Halo2 and PLONKish arithmetic.
+## Introduction
+This is the first in a series of very high level tutorials on Halo2. The purpose of tutorials is to introduce Halo2 concepts in order to break them down into small understandable concepts to guide the reader that is starting out on the journey of learning zero knowledge and Halo2.
 
+Halo2 was developed Electric Coin Company, and has been used in Zcash and many other zero kenowledge protocols.
+
+Halo2 is an API implemented in Rust. It is used to create zero knowledge circuits used to prove and verify zero knowledge claims. Halo2 makes use of PLONKish arithmetic as the basis for computations. In order to understand how to develop Halo2 circuits it would be beneficial to first understand the table structure used by Halo2 and PLONKish arithmetic.
+
+## Analogy
 Let me start off by using an abstract example, I think this will make understanding the concept slightly easier.
 Imagine a database table or an excel spreadsheet. Each column has a type of data it will hold, in a typical database the first column might be used for an auto-incrementing integer which will become the row index. The next column will hold a different type of data which the application will use internally for some function. Each row will be filled with values that correspond to the column data types. 
 
 This is a long winded way to say each column has a function and each row is filled with data according to the column's data type.
 
+## Scenario
 The scenario we will use in our example is a list where sales are recorded.
 There are two sales people and each day a tally of sales is recorded.
 The spreadsheet consists of three columns, column A is sales done by the first sales person, column B is the number of sales per day by the second sales person and column C is used to capture a running total of sales.
