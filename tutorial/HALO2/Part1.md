@@ -47,6 +47,8 @@ The table below lists these columns and the columns in our spreadsheet as refere
 
 ![Table](pics/coulmtypes.png)
 
+In the tutorial where we look into "Custom Gates", I will start going into the code, and show how each of these columns is declared and and instantiated in Rust code.
+
 ## Conclusion
 In the next tutorial I will be looking into the structure of Halo2 projects. We will get an insight into the concepts of "Chips", "Circuits", "Layouter" , "Floorplanner".
 
