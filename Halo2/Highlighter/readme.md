@@ -1,5 +1,5 @@
 # Highlighter
-Highlighter (the name was chosen as its not quite a bug finder but can highlight cdoe that may need a bit of extra attention)
+Highlighter (the name was chosen as its not quite a bug finder but can highlight code that may need a bit of extra attention)
 is a python script which runs against a HALO2 (or Rust) project and will highlight any code that may need to be checked a bit closer
 
 The analysis is configured in `templates` which can take an array of similar types of text to scan for.
