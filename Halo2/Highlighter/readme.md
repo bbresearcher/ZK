@@ -9,7 +9,7 @@ The analysis is configured in `templates` which can take an array of similar typ
 I DO NOT WARRANTY THIS CODE TO BE BUG FREE OR TO BE FIT FOR PURPOSE, RUNNING HIGHLIGHTER AGAINSRT A PROJECT DOES NOT GAURANTEE THAT THE PROJECT IS SECURE AND/OR BUG FREE
 
 
-# Below is an examplereport:
+# Below is an example report:
 
 # HighLighter Report
 - Running Highlighter against directory: /home/halo2/project
