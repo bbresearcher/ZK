@@ -1,0 +1,4 @@
+{ "name":"unwrapCheck", 
+  "match": [".unwrap() "], 
+  "description":"Found unwrap without ? after make sure errors are handled correctly"
+}
