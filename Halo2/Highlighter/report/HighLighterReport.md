@@ -1,6 +1,6 @@
 # HighLighter Report
-- Running Highlighter against directory: /home/testadmin/Desktop/halo2/summa/summa-solvency-2/prover
-- Rules templates directory set as : /home/testadmin/Desktop/halo2/Highlighter/templates/
+- Running Highlighter against directory: /home/halo2/project
+- Rules templates directory set as : /home/Highlighter/templates/
 ## Circuit files found:
    [^] univariate_grand_sum.rs
 ## Rule checks returned the list of code to check below:
