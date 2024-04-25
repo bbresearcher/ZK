@@ -2,7 +2,7 @@
 - Running Highlighter against directory: /home/halo2/project
 - Rules templates directory set as : /home/Highlighter/templates/
 ## Circuit files found:
-   [^] univariate_grand_sum.rs
+   [^] Circuit.rs
 ## Rule checks returned the list of code to check below:
 ### File: /home/aaaa.rs
    #: Match found on : .unwrap() 
