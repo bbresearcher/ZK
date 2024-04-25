@@ -1,0 +1,4 @@
+{ "name":"todoCheck", 
+  "match": ["TODO"], 
+  "description":"Found comment with the text TODO, check that code is complete and correctly implemented, or remove if not needed"
+}
