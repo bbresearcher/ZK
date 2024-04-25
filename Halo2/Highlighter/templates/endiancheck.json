@@ -1,0 +1,4 @@
+{ "name":"endianCheck", 
+  "match": ["from_little_endian","from_big_endian"], 
+  "description":"Found code using specific endian calls, Always check that the endian values used are consistent and valid"
+}
