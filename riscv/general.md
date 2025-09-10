@@ -28,3 +28,106 @@ LW	32 bits	Signed	4 bytes
 LBU	8 bits	Unsigned	None
 LHU	16 bits	Unsigned	2 bytes
 ```
+
+---
+
+## Arithmetic Instructions
+
+| Opcode      | Description                                   |
+|-------------|-----------------------------------------------|
+| ADD         | Add two registers                             |
+| SUB         | Subtract one register from another            |
+| XOR         | Bitwise XOR of two registers                  |
+| OR          | Bitwise OR of two registers                   |
+| AND         | Bitwise AND of two registers                  |
+| SLL         | Shift left logical                            |
+| SRL         | Shift right logical                           |
+| SRA         | Shift right arithmetic                        |
+| SLT         | Set if less than (signed)                     |
+| SLTU        | Set if less than (unsigned)                   |
+
+---
+
+## Load Instructions
+
+| Opcode      | Description                                   |
+|-------------|-----------------------------------------------|
+| LB          | Load byte (signed)                            |
+| LH          | Load halfword (16 bits, signed)               |
+| LW          | Load word (32 bits, signed)                   |
+| LBU         | Load byte (unsigned)                          |
+| LHU         | Load halfword (16 bits, unsigned)             |
+
+---
+
+## Store Instructions
+
+| Opcode      | Description                                   |
+|-------------|-----------------------------------------------|
+| SB          | Store byte                                    |
+| SH          | Store halfword (16 bits)                      |
+| SW          | Store word (32 bits)                          |
+
+---
+
+## Branch Instructions
+
+| Opcode      | Description                                   |
+|-------------|-----------------------------------------------|
+| BEQ         | Branch if equal                               |
+| BNE         | Branch if not equal                           |
+| BLT         | Branch if less than (signed)                  |
+| BGE         | Branch if greater or equal (signed)           |
+| BLTU        | Branch if less than (unsigned)                |
+| BGEU        | Branch if greater or equal (unsigned)         |
+
+---
+
+## Jump Instructions
+
+| Opcode      | Description                                   |
+|-------------|-----------------------------------------------|
+| JAL         | Jump and link (stores return address)         |
+| JALR        | Jump and link register                        |
+
+---
+
+## Upper Immediate Instruction
+
+| Opcode      | Description                                   |
+|-------------|-----------------------------------------------|
+| AUIPC       | Add upper immediate to PC                     |
+
+---
+
+## System Instructions
+
+| Opcode      | Description                                   |
+|-------------|-----------------------------------------------|
+| ECALL       | Environment call (system call)                |
+| EBREAK      | Breakpoint (used for debugging)               |
+
+---
+
+## Multiply/Divide Instructions
+
+| Opcode      | Description                                   |
+|-------------|-----------------------------------------------|
+| MUL         | Multiply (lower 32 bits)                      |
+| MULH        | Multiply high (signed)                        |
+| MULHU       | Multiply high (unsigned)                      |
+| MULHSU      | Multiply high (signed/unsigned)               |
+| DIV         | Divide (signed)                               |
+| DIVU        | Divide (unsigned)                             |
+| REM         | Remainder (signed)                            |
+| REMU        | Remainder (unsigned)                          |
+
+---
+
+## Other/Unimplemented
+
+| Opcode      | Description                                   |
+|-------------|-----------------------------------------------|
+| UNIMP       | Unimplemented instruction                     |
+
+---
